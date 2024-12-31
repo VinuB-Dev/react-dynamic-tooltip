@@ -1,0 +1,32 @@
+#root {
+  padding: 2rem;
+}
+
+.tooltip-rds-container {
+  position: relative;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  gap: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
