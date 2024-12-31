@@ -7,6 +7,15 @@ function App() {
   const [position, setPosition] = useState("left");
   return (
     <>
+      <div className="github-link">
+        <a
+          href="https://github.com/VinuB-Dev/react-dynamic-tooltip"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub Repository
+        </a>
+      </div>
       <div>
         <button onClick={() => setPosition("left")}>Left</button>
         <button onClick={() => setPosition("center")}>Center</button>

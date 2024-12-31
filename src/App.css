@@ -30,3 +30,8 @@
 .mt-2 {
   margin-top: 2rem;
 }
+
+.github-link {
+  display: flex;
+  justify-content: flex-end;
+}
